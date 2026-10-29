@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KETABO AGRO — Tumbuh Bersama Petani. Mitra kebutuhan pertanian.">
+  <title>KETABO AGRI INDONESIA</title>
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>Jam Operasional</span>
+      <span>Senin–Sabtu, 06.00–17.00</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a href="#home" class="brand"><img src="img/gambar1.png" class="logo" alt="KETABO AGRO — Tumbuh Bersama Petani"></a>
+      <button class="menu" id="menuBtn" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <nav class="links" id="navLinks">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#products">Produk</a>
+        <a href="#services">Layanan</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Hubungi Kami ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <h1>Tumbuh Bersama Petani,<br><em>membangun masa depan.</em></h1>
+          <p>KETABO hadir sebagai mitra kebutuhan pertanian, mendukung petani melalui produk yang tepat, informasi yang jelas, dan hubungan yang tumbuh bersama.</p>
+          <div class="actions">
+            <a class="btn" href="#products">Jelajahi Produk <span>↗</span></a>
+            <a class="btn secondary" href="#about">Kenali Kami</a>
+          </div>
+          <div class="trust">
+            <div class="avatars"><span>🌾</span><span>🌱</span><span>🤝</span></div>
+            <div><strong>Mitra untuk pertanian</strong><br>Berkomitmen tumbuh bersama petani</div>
+          </div>
+        </div>
+        <div class="hero-visual slider" id="heroSlider" aria-roledescription="carousel" aria-label="Galeri pertanian">
+          <div class="slide active"><img src="img/gambar3.jpg" alt="Petani KETABO memanen padi"></div>
+          <div class="slide active"><img src="img/gambar4.jpg" alt="Petani KETABO memanen padi"></div>
+          <div class="slide active"><img src="img/gambar5.jpg" alt="Petani KETABO memanen padi"></div>
+          <div class="slide active"><img src="img/gambar6.jpg" alt="Petani KETABO memanen padi"></div>
+          <div class="slide active"><img src="img/gambar2.jpg" alt="Petani KETABO memanen padi"></div>
+          <button class="slider-btn prev" type="button" aria-label="Foto sebelumnya">‹</button>
+          <button class="slider-btn next" type="button" aria-label="Foto berikutnya">›</button>
+          <div class="slider-dots" role="tablist"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nilai -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat"><strong>01</strong><span>Berorientasi pada petani</span></div>
+        <div class="stat"><strong>02</strong><span>Informasi produk yang jelas</span></div>
+        <div class="stat"><strong>03</strong><span>Hubungan jangka panjang</span></div>
+        <div class="stat"><strong>04</strong><span>Tumbuh bersama mitra</span></div>
+      </div>
+    </section>
+
+    <!-- Tentang -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-photo">
+          <img src="img/gambar2.jpg" alt="Petani bekerja di lahan pertanian" loading="lazy">
+          <div class="photo-tag">Tumbuh Bersama<br>Petani.</div>
+        </div>
+        <div class="about-copy">
+          <span class="kicker">Tentang KETABO AGRI INDONESIA</span>
+          
+          <p>KETABO AGRI INDONESIA adalah identitas usaha yang berfokus pada kebutuhan pertanian. Kami percaya bahwa pertanian yang kuat dibangun melalui akses terhadap produk, informasi yang bertanggung jawab, dan kemitraan yang saling mendukung.</p>
+          <p>Melalui pelayanan yang dekat dengan pelanggan, kami ingin menjadi bagian dari perjalanan petani.</p>
+          <ul class="checklist">
+            <li><span class="check">✓</span> Mengutamakan kebutuhan pelanggan</li>
+            <li><span class="check">✓</span> Informasi produk yang jelas dan bertanggung jawab</li>
+            <li><span class="check">✓</span> Membangun kemitraan jangka panjang</li>
+          </ul>
+          <a class="btn" href="#contact">Diskusikan Kebutuhan Anda ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk -->
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="kicker">Katalog pilihan</span>
+            <h2>Solusi untuk kebutuhan<br>pertanian Anda.</h2>
+          </div>
+          <p>Temukan kategori produk pertanian yang dapat disesuaikan dengan kebutuhan tanaman dan lahan Anda. Hubungi kami untuk informasi ketersediaan.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=800&q=80" alt="Tanaman hijau sehat" loading="lazy"></div>
+            <div class="product-info">
+              <span class="tag">Nutrisi tanaman</span>
+              <h3>Pupuk &amp; Nutrisi</h3>
+              <p>Pilihan produk untuk mendukung pemenuhan kebutuhan nutrisi tanaman sesuai rekomendasi.</p>
+              <a class="product-link" href="#contact" data-product="Pupuk &amp; Nutrisi">Tanyakan produk ↗</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-img"><img src="img/gambar2.jpg" alt="Barisan tanaman pertanian" loading="lazy"></div>
+            <div class="product-info">
+              <span class="tag">Perlindungan tanaman</span>
+              <h3>Perlindungan Tanaman</h3>
+              <p>Informasi produk pengendalian hama, penyakit, dan gulma sesuai label serta kebutuhan.</p>
+              <a class="product-link" href="#contact" data-product="Perlindungan Tanaman">Tanyakan produk ↗</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=800&q=80" alt="Lahan tanaman hijau" loading="lazy"></div>
+            <div class="product-info">
+              <span class="tag">Budidaya</span>
+              <h3>Benih &amp; Kebutuhan Tani</h3>
+              <p>Berbagai kebutuhan budidaya untuk membantu persiapan dan perawatan tanaman.</p>
+              <a class="product-link" href="#contact" data-product="Benih &amp; Kebutuhan Tani">Tanyakan produk ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layanan -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="kicker">Cara kami mendukung</span>
+            <h2>Lebih dari sekadar<br>produk pertanian.</h2>
+          </div>
+          <p>Kami ingin membangun hubungan yang berkelanjutan dengan petani dan mitra usaha.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">🌿</div>
+            <h3>Informasi Produk</h3>
+            <p>Membantu pelanggan memahami fungsi dan petunjuk penggunaan produk melalui informasi yang jelas.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">🤝</div>
+            <h3>Kemitraan Usaha</h3>
+            <p>Membuka peluang kerja sama dengan kelompok tani, distributor, dan pelaku usaha pertanian.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">🌾</div>
+            <h3>Dukungan Kebutuhan Tani</h3>
+            <p>Membantu mengarahkan pilihan produk berdasarkan kebutuhan yang disampaikan pelanggan.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kemitraan -->
+    <section class="section partnership">
+      <div class="container">
+        <div class="partner-box">
+          <div>
+            <span class="kicker">Mari bertumbuh bersama</span>
+            <h2>Punya peluang kerja sama?</h2>
+            <p>Kami terbuka untuk berdiskusi dengan distributor, kelompok tani, dan mitra yang memiliki semangat membangun pertanian.</p>
+          </div>
+          <a class="btn" href="#contact">Mulai Percakapan ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="kicker">Hubungi kami</span>
+          <h2>Senang bisa tumbuh<br>bersama Anda.</h2>
+          <p class="contact-intro">Punya pertanyaan tentang produk atau ingin menjajaki kerja sama? Kirim pesan melalui formulir ini.</p>
+          <div class="contact-list">
+            <div class="contact-item"><div class="service-icon">☎</div><div><b>WhatsApp</b><small> nomor bisnis </small></div></div>
+            <div class="contact-item"><div class="service-icon">⌖</div><div><b>Lokasi Toko</b><small>alamat lengkap KETABO AGRI INDONESIA</small></div></div>
+            <div class="contact-item"><div class="service-icon">✉</div><div><b>Email</b><small>email resmi perusahaan</small></div></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="field"><label for="name">Nama</label><input id="name" name="name" autocomplete="name" required placeholder="Nama Anda"></div>
+            <div class="field"><label for="phone">Nomor WhatsApp</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="08xxxxxxxxxx"></div>
+          </div>
+          <div class="field">
+            <label for="interest">Saya ingin bertanya tentang</label>
+            <select id="interest" name="interest">
+              <option>Informasi produk</option>
+
+              <option>Kebutuhan pertanian</option>
+              <option>Lainnya</option>
+            </select>
+          </div>
+          <div class="field"><label for="message">Pesan</label><textarea id="message" name="message" required placeholder="Ceritakan kebutuhan Anda..."></textarea></div>
+          <button class="btn" type="submit">Kirim Pesan ↗</button>
+          <p class="form-note">Formulir ini belum terhubung ke email atau WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <a href="#home" class="footer-logo"><img src="img/gambar1.png" alt="KETABO AGRO"></a>
+        
+        <div class="footer-links"><a href="#about">Tentang</a><a href="#products">Produk</a><a href="#contact">Kontak</a></div>
+      </div>
+      <div class="copyright">
+        <span>© <span id="year"></span> KETABO AGRI INDONESIA. Seluruh hak dilindungi.</span>
+        
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
